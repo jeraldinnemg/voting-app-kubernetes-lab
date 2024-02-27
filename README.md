@@ -47,7 +47,7 @@ kubectl delete -f voting-app/
 ## Architecture
 
 ![Architecture diagram](images/architecture.excalidraw.png)
-![Minikuberunning](images/architecture.excalidraw.png)
+![Minikuberunning](images/minikuberunning.png)
 ![voting-app](images/voting-app.gif)
 
 * A front-end web app in [Python](/vote) which lets you vote between two options
