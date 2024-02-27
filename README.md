@@ -46,7 +46,9 @@ kubectl delete -f voting-app/
 
 ## Architecture
 
-![Architecture diagram](architecture.excalidraw.png)
+![Architecture diagram](images/architecture.excalidraw.png)
+![Minikuberunning](images/architecture.excalidraw.png)
+![voting-app](images/voting-app.gif)
 
 * A front-end web app in [Python](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) which collects new votes
