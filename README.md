@@ -38,6 +38,11 @@ kubectl create -f result-app-service.yaml
 
 The `vote` web app is then available on port 31000 on each host of the cluster, the `result` web app is available on port 31001.
 
+To scale them, run:
+
+```shell
+kubectl scale deployment vote --replicas=3
+```
 To remove them, run:
 
 ```shell
